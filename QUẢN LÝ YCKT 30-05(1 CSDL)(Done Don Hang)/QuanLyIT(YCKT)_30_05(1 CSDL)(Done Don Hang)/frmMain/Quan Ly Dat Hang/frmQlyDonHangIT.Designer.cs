@@ -1,6 +1,6 @@
 ﻿namespace frmMain.Quan_Ly_Dat_Hang
 {
-    partial class frmQlyDonHangIT
+    partial class QuanLySanXuat
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmQlyDonHangIT));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(QuanLySanXuat));
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
             this.label6 = new System.Windows.Forms.Label();
             this.txtDaKK = new System.Windows.Forms.TextBox();

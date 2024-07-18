@@ -178,6 +178,12 @@
     <Compile Include="Quan Ly Kho\frmThongKeTieuHao.Designer.cs">
       <DependentUpon>frmThongKeTieuHao.cs</DependentUpon>
     </Compile>
+    <Compile Include="QuanLySanXuat\QuanLySanXuat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLySanXuat\QuanLySanXuat.Designer.cs">
+      <DependentUpon>QuanLySanXuat.cs</DependentUpon>
+    </Compile>
     <Compile Include="Report\rptDiChuyenMayTinh.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -573,6 +579,9 @@
     </Compile>
     <EmbeddedResource Include="Quan Ly May Tinh\frmNhapExcelDSPhanMem.resx">
       <DependentUpon>frmNhapExcelDSPhanMem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLySanXuat\QuanLySanXuat.resx">
+      <DependentUpon>QuanLySanXuat.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Report\rptBienBanBG.resx">
       <DependentUpon>rptBienBanBG.cs</DependentUpon>
