@@ -15,11 +15,11 @@ using System.IO;
 
 namespace frmMain.Quan_Ly_Dat_Hang
 {
-    public partial class frmQlyDonHangIT : DevExpress.XtraEditors.XtraForm
+    public partial class QuanLySanXuat : DevExpress.XtraEditors.XtraForm
     {
         // phân quyền cho Form đơn hàng
 
-        public frmQlyDonHangIT()
+        public QuanLySanXuat()
         {
             InitializeComponent();
             LoadControl();

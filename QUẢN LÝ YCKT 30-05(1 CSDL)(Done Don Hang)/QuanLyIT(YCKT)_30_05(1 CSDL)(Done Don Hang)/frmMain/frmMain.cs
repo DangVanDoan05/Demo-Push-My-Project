@@ -683,7 +683,12 @@ namespace frmMain
         private void btnDatHangIT_ItemClick(object sender, ItemClickEventArgs e)
         {
             LoadItem(e);
-            OpenForm(typeof(frmQlyDonHangIT));
+            OpenForm(typeof(Quan_Ly_Dat_Hang.QuanLySanXuat));
+        }
+
+        private void barButtonItem4_ItemClick_1(object sender, ItemClickEventArgs e)
+        {
+            OpenForm(typeof(Quan_Ly_Dat_Hang.QuanLySanXuat));
         }
     }
 }
