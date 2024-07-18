@@ -3832,11 +3832,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\QUẢN LÝ IT( Done Đơn Hàng)\\QUẢN LÝ YCKT 30-05(1 CSDL)(Done Don Hang)\\QuanLyIT(YCKT)_30_05(1 CSDL)(Done Don Hang)\\CONNECTION\\CONNECTION.csproj",
+      "projectUniqueName": "E:\\KhoIT18-07-2024\\QuanLyIT-Done-Kho-DatHang\\QUẢN LÝ YCKT 30-05(1 CSDL)(Done Don Hang)\\QuanLyIT(YCKT)_30_05(1 CSDL)(Done Don Hang)\\CONNECTION\\CONNECTION.csproj",
       "projectName": "CONNECTION",
-      "projectPath": "E:\\QUẢN LÝ IT( Done Đơn Hàng)\\QUẢN LÝ YCKT 30-05(1 CSDL)(Done Don Hang)\\QuanLyIT(YCKT)_30_05(1 CSDL)(Done Don Hang)\\CONNECTION\\CONNECTION.csproj",
+      "projectPath": "E:\\KhoIT18-07-2024\\QuanLyIT-Done-Kho-DatHang\\QUẢN LÝ YCKT 30-05(1 CSDL)(Done Don Hang)\\QuanLyIT(YCKT)_30_05(1 CSDL)(Done Don Hang)\\CONNECTION\\CONNECTION.csproj",
       "packagesPath": "C:\\Users\\m1029dd\\.nuget\\packages\\",
-      "outputPath": "E:\\QUẢN LÝ IT( Done Đơn Hàng)\\QUẢN LÝ YCKT 30-05(1 CSDL)(Done Don Hang)\\QuanLyIT(YCKT)_30_05(1 CSDL)(Done Don Hang)\\CONNECTION\\obj\\",
+      "outputPath": "E:\\KhoIT18-07-2024\\QuanLyIT-Done-Kho-DatHang\\QUẢN LÝ YCKT 30-05(1 CSDL)(Done Don Hang)\\QuanLyIT(YCKT)_30_05(1 CSDL)(Done Don Hang)\\CONNECTION\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\m1029dd\\AppData\\Roaming\\NuGet\\NuGet.Config",
