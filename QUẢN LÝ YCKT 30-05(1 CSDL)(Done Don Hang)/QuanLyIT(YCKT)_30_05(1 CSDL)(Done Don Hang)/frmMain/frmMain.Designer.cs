@@ -127,6 +127,10 @@
             this.documentManager1 = new DevExpress.XtraBars.Docking2010.DocumentManager(this.components);
             this.tabbedView1 = new DevExpress.XtraBars.Docking2010.Views.Tabbed.TabbedView(this.components);
             this.lblCommonUser = new System.Windows.Forms.Label();
+            this.ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.barButtonItem8 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem9 = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.ribbon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.documentManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tabbedView1)).BeginInit();
@@ -210,9 +214,11 @@
             this.btnDatHangIT,
             this.barButtonItem4,
             this.barButtonItem5,
-            this.barButtonItem7});
+            this.barButtonItem7,
+            this.barButtonItem8,
+            this.barButtonItem9});
             this.ribbon.Location = new System.Drawing.Point(0, 0);
-            this.ribbon.MaxItemId = 73;
+            this.ribbon.MaxItemId = 75;
             this.ribbon.Name = "ribbon";
             this.ribbon.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.rpYCKT,
@@ -220,7 +226,8 @@
             this.rpDanhSachTBIT,
             this.rpQuanLyUser,
             this.rpDuLieuNguon,
-            this.ribbonPage1});
+            this.ribbonPage1,
+            this.ribbonPage2});
             this.ribbon.Size = new System.Drawing.Size(1364, 151);
             this.ribbon.StatusBar = this.ribbonStatusBar;
             // 
@@ -1008,6 +1015,36 @@
             this.lblCommonUser.Size = new System.Drawing.Size(0, 15);
             this.lblCommonUser.TabIndex = 3;
             // 
+            // ribbonPage2
+            // 
+            this.ribbonPage2.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
+            this.ribbonPageGroup2});
+            this.ribbonPage2.Name = "ribbonPage2";
+            this.ribbonPage2.Text = "Quản lý QC";
+            // 
+            // ribbonPageGroup2
+            // 
+            this.ribbonPageGroup2.ItemLinks.Add(this.barButtonItem8);
+            this.ribbonPageGroup2.ItemLinks.Add(this.barButtonItem9);
+            this.ribbonPageGroup2.Name = "ribbonPageGroup2";
+            this.ribbonPageGroup2.Text = "ribbonPageGroup2";
+            // 
+            // barButtonItem8
+            // 
+            this.barButtonItem8.Caption = "Quản lý chất lượng";
+            this.barButtonItem8.Id = 73;
+            this.barButtonItem8.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem8.ImageOptions.Image")));
+            this.barButtonItem8.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem8.ImageOptions.LargeImage")));
+            this.barButtonItem8.Name = "barButtonItem8";
+            // 
+            // barButtonItem9
+            // 
+            this.barButtonItem9.Caption = "Quản lý hàng hóa";
+            this.barButtonItem9.Id = 74;
+            this.barButtonItem9.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem9.ImageOptions.Image")));
+            this.barButtonItem9.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem9.ImageOptions.LargeImage")));
+            this.barButtonItem9.Name = "barButtonItem9";
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -1129,5 +1166,9 @@
         private DevExpress.XtraBars.BarButtonItem barButtonItem7;
         private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage1;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup1;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem8;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem9;
+        private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage2;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup2;
     }
 }
